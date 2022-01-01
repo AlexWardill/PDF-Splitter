@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@200;300&display=swap');
+
+html {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(77, 123, 207);
+    color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    width: 100%;
+    list-style: none;
+    
+    background: rgb(76, 76, 122);
+}
+
+.nav-item:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+input[type=file] {
+    font-size: 1.4em;
+    width: auto;
+}
+
+h1 {
+    font-size: 2.3em;
+    margin-bottom: .4em;
+    text-decoration: rgb(216, 58, 58) underline;
+    text-underline-offset: 3px;
+}
+
+#h1-split {
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    color: rgb(230, 230, 230);
+}
+
+.underline {
+    width: 400px;
+    height: 4px;
+    background-color: rgb(201, 57, 57);
+    margin-top: 1em;
+}
+
+.bottom-p {
+    margin-top: 1em;
+    color: rgb(230, 230, 230);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: rgb(216, 58, 58);
+    padding: .3em;
+    color: white;
+    border: none;
+    font-size: 2em;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px white;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(173, 173, 211);
+    color: black;
+    font-weight: 600;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
