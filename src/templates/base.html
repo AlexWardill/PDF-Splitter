@@ -16,10 +16,12 @@
     {% block content %}{% endblock %}
 
     <footer>
-        Made by Alex Wardill 
-        <a href="https://github.com/AlexWardill">
-            <img src="/src/static/GitHub-Mark-Light-32px.png" alt="GitHub Logo">
-        </a>
+        <div class="footer-wrapper">
+            Made by Alex Wardill 
+            <a href="https://github.com/AlexWardill" target="_blank">
+                <img src="{{url_for('static', filename='Github-Mark-32px.png')}}" alt="GitHub Logo">
+            </a>
+        </div>
     </footer>
 </body>
 </html>

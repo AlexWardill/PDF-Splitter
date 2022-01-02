@@ -97,3 +97,14 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper * {
+    margin: 0 .2em;
+}
